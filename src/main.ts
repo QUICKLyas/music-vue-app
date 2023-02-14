@@ -1,10 +1,10 @@
 import {createApp} from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+import pinia from './store'
 // import "@vant/touch-emulator";
 // import "amfe-flexible";
-import qs from 'qs'
+// import qs from 'qs'
 // import Fastclick from 'fastclick'
 // import {Button} from 'vant'
 
@@ -14,4 +14,4 @@ import qs from 'qs'
 // new Vue ({
 //     router,store,render: h=>h(App)
 // }).$mount("#app")
-createApp(App).use(store).use(router).mount('#app')
+createApp(App).use(pinia).use(router).mount('#app')
